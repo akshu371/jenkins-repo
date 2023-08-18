@@ -17,7 +17,7 @@ pipeline {
                 environment name: 'SDLC_ENV', value: 'dev'
             }
             steps {
-                echo 'Deploying Code...'
+                echo 'Deploying Code'
             }
         }
     }
